@@ -11,7 +11,44 @@
         "language": "en-US"
       },
       "results": [
-      ]
+        {
+          "ruleId": "CS0162",
+          "level": "warning",
+          "message": "Unreachable code detected",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///home/luizlacerdam/trybe-projetos/csharp-001-projeto-trybank/src/trybank/Trybank.cs",
+                "region": {
+                  "startLine": 48,
+                  "startColumn": 49,
+                  "endLine": 48,
+                  "endColumn": 50
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        }
+      ],
+      "rules": {
+        "CS0162": {
+          "id": "CS0162",
+          "shortDescription": "Unreachable code detected",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS0162)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        }
+      }
     }
   ]
 }
